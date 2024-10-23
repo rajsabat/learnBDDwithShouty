@@ -1,2 +1,5 @@
-.idea
+maven/.idea
 *.iml
+
+target/
+*.versionsBackup
