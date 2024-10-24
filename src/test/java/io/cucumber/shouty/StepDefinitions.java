@@ -13,7 +13,7 @@ public class StepDefinitions {
     private Person lucy;
     private Person sean;
 
-    @Given("Lucy is located {int} mtrs from the shop")
+    @Given("Lucy is located/standing {int} mtr(s) from the shop")
     public void lucy_is_located_mtrs_from_the_shop(Integer distance) {
         // Write code here that turns the phrase above into concrete actions
         lucy = new Person();
